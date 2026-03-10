@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
- <title>クッキーのサイト</title>
+    <meta charset="UTF-8">
+    <title>クッキーのページ</title>
+    <style>
+        body {
+            /* 背景を少しグレーにすると、白背景の画像が際立ちます */
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 300px; /* 画像のサイズを調整 */
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-  <h1>クッキーは美味しいと、叫ぼう</h1>
-  <p>クッキーは盾になります</p>
-  <img src=1773129892342.png>
+
+    <div class="container">
+        <h1>おいしいクッキー</h1>
+        <img src="cookie.jpg" alt="チョコチップクッキー">
+        <p>サクサクのチョコチップクッキーです。</p>
+    </div>
+
 </body>
 </html>
+
